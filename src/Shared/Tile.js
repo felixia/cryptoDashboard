@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styled from 'styled-components';
 import {subtleBoxShadow,greenBoxShadow,lightBlueBackground,redBoxShadow} from './Styles';
 
