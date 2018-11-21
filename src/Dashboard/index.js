@@ -2,7 +2,7 @@ import React from 'react';
 import Page from '../Shared/Page';
 import PriceGrid from './PriceGrid';
 import CoinSpotlight from './CoinSpotlight';
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 import PriceChart from './PriceChart';
 
 

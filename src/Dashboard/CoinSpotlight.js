@@ -2,7 +2,7 @@ import React from 'react';
 import {Tile} from '../Shared/Tile';
 import {AppContext} from '../App/AppProvider';
 import CoinImage from '../Shared/CoinImage';
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
 
 const SpotlightName = styled.h2`
@@ -15,7 +15,7 @@ export default function(){
 		<AppContext.Consumer>
 		{ ({currentFavorite,coinList}) =>
 			<Tile>
-			<h2> {coinList[currentFavorite].CoinName} </h2>
+			<SpotlightName> {coinList[currentFavorite].CoinName} </SpotlightName>
 			<CoinImage spotlight coin={coinList[currentFavorite]}/>
 			</Tile>
 		}
